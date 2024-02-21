@@ -5,10 +5,11 @@ import {
   AiOutlineDownload,
   AiOutlineInstagram,
   AiOutlineMail,
+  AiOutlineWhatsApp,
 } from "react-icons/ai";
 import { Button, Input, Textarea } from "../../components/form";
 import { Page } from "../../components/Page";
-import { blue, green, pink, red, yellow } from "../../utils";
+import { blue, green, grey, pink, red, yellow } from "../../utils";
 import { ContactForm, ContactWrapper, IconButton } from "./Contact.styled";
 
 export const Contact = () => {
@@ -19,15 +20,6 @@ export const Contact = () => {
        
         <div className="buttons">
           <div className="socials">
-            <a
-              href="https://www.instagram.com/prade__epth/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <IconButton bg={pink}>
-                <AiOutlineInstagram size={40} />
-              </IconButton>
-            </a>
             <a
               href="https://www.linkedin.com/in/pradeepth-s-jain-948922257"
               target="_blank"
@@ -53,7 +45,15 @@ export const Contact = () => {
                 <AiFillGithub size={40} />
               </IconButton>
             </a>
-
+            <a
+              href="https://wa.me/9019276526"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <IconButton bg={grey}>
+                <AiOutlineWhatsApp size={40} />
+              </IconButton>
+            </a>
             <a
               href="https://drive.google.com/file/d/1yxrfKgcOji3R_RQ3WmNWkHVs-nYhMLvr/view?usp=drivesdk"
               target="_blank"

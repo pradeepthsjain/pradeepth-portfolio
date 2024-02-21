@@ -27,36 +27,6 @@ export const projects = [
     link: "https://storefrontend-six.vercel.app/",
   },
   {
-    title: "Touch Responsive Bg",
-    description:
-      "A Touch responsive background which tracks your movements made on the screen.",
-      image:web,
-      github: "https://github.com/pradeepth02/Touch-Responsive-Background",
-    link: "https://back-ground.netlify.app/",
-  },
-  {
-    title: "Old Portfolio",
-    description: "My old portfolio.",
-    image: scroll,
-    link: "https://pradeepth-portfolio.netlify.app/",
-    github: "https://github.com/pradeepth02/Portfolio",
-  },
-  {
-    title: "3D-Room",
-    image:room,
-    github: "https://github.com/pradeepth02/3D-Room",
-    link: "https://room-3d.netlify.app/",
-    description:
-      "A attractive 3D room.",
-  },
-  {
-    title: "Ask a girl on a date.",
-    description: "Fun website.",
-    image: date,
-    link: "https://pradeepthh.netlify.app/",
-    github: "https://github.com/pradeepth02/ask-on-a-date",
-  },
-  {
     title: "Blood Bank",
     image: semicolon,
     github: "https://github.com/pradeepth02/bloodmanagement",
@@ -91,4 +61,12 @@ export const projects = [
       image:crop,
     github: "https://github.com/pradeepth02/Crop-Optimization",
   },
+  {
+    title: "Old Portfolio",
+    description: "My old portfolio.",
+    image: scroll,
+    link: "https://pradeepth-portfolio.netlify.app/",
+    github: "https://github.com/pradeepth02/Portfolio",
+  },
+  
 ];

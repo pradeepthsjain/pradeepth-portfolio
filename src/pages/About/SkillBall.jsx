@@ -27,6 +27,8 @@ const Skills = () => {
     "TypeScript",
     "C",
     "C++",
+    "Tailwindcss",
+    "Solidity",
   ];
   const g = useRef();
   useFrame(() => {

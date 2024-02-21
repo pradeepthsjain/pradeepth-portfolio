@@ -3,13 +3,14 @@ import gsap from "gsap";
 import Flip from "gsap/Flip";
 import React, { useEffect } from "react";
 import { Page } from "../../components/Page";
-import { blue, green, yellow } from "../../utils";
+import { blue, green, grey, red, yellow } from "../../utils";
 import { Educations, Paragraph, SkillsWrapper, Text } from "./About.styled";
 import { AboutItem } from "./AboutItem";
 import Skills from "./SkillBall";
 import kle from "../../assets/images/kle.png";
 import school from "../../assets/images/school.jpg";
 import nitte from "../../assets/images/nitte.png";
+import bit from "../../assets/images/bit.png";
 import { useInView } from "react-intersection-observer";
 import { useState } from "react";
 
@@ -81,6 +82,16 @@ export const About = () => {
                 image: kle,
               }}
             />
+            <AboutItem
+              color={red}
+              active
+              data={{
+                title: "Bangalore Institute of Technology, Bangalore",
+                p: "Masters of Computer Application (2023)",
+                image: bit,
+              }}
+            />
+             
           </Educations>
         </Text>
         <SkillsWrapper>
