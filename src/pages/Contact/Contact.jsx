@@ -55,7 +55,7 @@ export const Contact = () => {
               </IconButton>
             </a>
             <a
-              href="https://drive.google.com/file/d/1yxrfKgcOji3R_RQ3WmNWkHVs-nYhMLvr/view?usp=drivesdk"
+              href="https://drive.google.com/drive/folders/1gUvlGEtfGw6qH5h2CqdqrJYb4pAJ2bZY?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
